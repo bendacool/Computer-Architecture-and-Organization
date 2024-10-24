@@ -1,3 +1,5 @@
+# Computer-Architecture-and-Organization 
+
 Bilgisayar, yüksek hızda aritmetik ve mantıksal işlemleri art arda yapabilen ve karar verebilme yetisine sahip hafızalı bir elektronik cihazdır.
 
 ## 1. Kuşak Bilgisayarlar - Vacuum Tube Bilgisayarlar
