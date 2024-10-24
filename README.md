@@ -324,14 +324,14 @@ Sayfalar sabit boyutlu bellek bloklarıdır.
 - Belleğe erişim için sanal adreslerin fiziksel adreslere dönüştürülmesi
 gerekir. Bu işleme adres dönüşümü(page translation) denir.
 
-![[Pasted image 20241024141235.png]]
+<img src="./Pasted image 20241024141235.png" alt="example" />
 
-![[Pasted image 20241024141247.png]]
+<img src="./Pasted image 20241024141247.png" alt="example" />
 
 ## Sayfa Tablosu
 Yapılan sanal ve fiziksel sayfa eşleşmelerini daha sonra dönüşümde kullanmak için bir yerde tutmamız gerekir. Bu eşleşmeler sayfa tablosu(page table) isimli bir yapıda bellekte tutulur. Sayfa tablosunun adresi bir yazmaçta tutulur. Erişim yapılacağı zaman bu adresle tabloya erişilir.
 
-![[Pasted image 20241024141351.png]]
+<img src="./Pasted image 20241024141351.png" alt="example" />
 
 ## Etkin Sayfalar Önbelleği
 Dönüşüm için işlemcide tutulan önbelleğe etkin sayfalar önbelleği (translation lookside buffer) denir.
@@ -356,19 +356,19 @@ Bellek hiyerarşisinde önbellek ve ana bellek için yazma işlemleri iki şekil
 
 Sanal bellek için ise ikincil bellek ve ana bellek arasındaki gecikme çok fazladır. İkincil belleğe yazma işlemi çok uzun süreceği için sanal bellek sisteminde bu iki seviye arasında her zaman sonradan yazma yöntemi uygulanır.
 
-![[Pasted image 20241024141616.png]]
+<img src="./Pasted image 20241024141616.png" alt="example" />
 
 ## Bilgisayar Başarımı (Performans)
 
-![[Pasted image 20241024141641.png]]
+<img src="./Pasted image 20241024141641.png" alt="example" />
 
-![[Pasted image 20241024141654.png]]
+<img src="./Pasted image 20241024141654.png" alt="example" />
 
-![[Pasted image 20241024142006.png]]
+<img src="./Pasted image 20241024142006.png" alt="example" />
 
-![[Pasted image 20241024142016.png]]
+<img src="./Pasted image 20241024142016.png" alt="example" />
 
-![[Pasted image 20241024142150.png]]
+<img src="./Pasted image 20241024142150.png" alt="example" />
 
 ## Ortalama Clock Cycle’ı
 - Bir programda execution time (yürütme zamanı) doğrudan doğruya komutların sayısına
@@ -392,7 +392,7 @@ __Örneğin:__
 	 - Anlaşılacağı gibi B bilgisayarı daha hızlıdır.
 	 - __`PerformanceA / PerformanceB= Execution timeB / Execution timeA= n = Ix600ps / Ix750ps = 0.8 CPU time = komut sayısı x CPI x Clock cycle (Clok periyodu) time`__
 
-![[Pasted image 20241024142412.png]]
+<img src="./Pasted image 20241024142412.png" alt="example" />
 
 ## Kod Segmentlerinin karşılaştırılması
 
@@ -404,7 +404,7 @@ __Örneğin:__
 - Hangisi size göre daha hızlıdır. Ne kadar?
 - Herbir dizi için CPI?
 
-	![[Pasted image 20241024142436.png]]
+  	<img src="./Pasted image 20241024142436.png" alt="example" />
 - Bu örnek gösterir ki; performans değerlendirme için yalnızca bir kıstas olarak kullanmak yanıltıcı olabilir. 
 - İki bilgisayarı performans açısından karşılaştırmak için, (yürütme zamanı-execution time) her üç bileşeni(Komut sayısı, CPI, Clock Cycle time(periyot)) dikkate almak gerekir. 
 - Eğer bileşenlerden bir kısmı özdeş ise, performans karşılaştırması özdeş olmayan bileşenlere göre yapılır. Örneğin her iki bilgisayarın frekansları ayni ise karşılaştırma, komut sayısı ve CPI’ya göre yapılabilir.
@@ -426,14 +426,14 @@ yaparız?
 - Girişlerin seçimi çok önemlidir. Büyük girişler bellek sistemini değerlendirmek için gereklidir. 
 - Ayrıca büyük iş yükü gereklidir.
 
-![[Pasted image 20241024142604.png]]
+<img src="./Pasted image 20241024142604.png" alt="example" />
 
-![[Pasted image 20241024142628.png]]
+<img src="./Pasted image 20241024142628.png" alt="example" />
 
-![[Pasted image 20241024142651.png]]
+<img src="./Pasted image 20241024142651.png" alt="example" />
 
-![[Pasted image 20241024142700.png]]
+<img src="./Pasted image 20241024142700.png" alt="example" />
 
-![[Pasted image 20241024142710.png]]
+<img src="./Pasted image 20241024142710.png" alt="example" />
 
-![[Pasted image 20241024142723.png]]
+<img src="./Pasted image 20241024142723.png" alt="example" />
