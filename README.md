@@ -10,7 +10,7 @@ Bilgisayar, yüksek hızda aritmetik ve mantıksal işlemleri art arda yapabilen
 ## 2. Kuşak: Transistörlü Bilgisayarlar
 - Transistörün icadıyla vakum tüp devri kapanıyor.
 - Transistör; Vakum tüpten çok daha küçük (1/13), daha az enerji harcıyor, daha hızlı anahtarlıyor.
-## 3.Kuşak: Entegre Devreli Bilgisayarlar
+## 3. Kuşak: Entegre Devreli Bilgisayarlar
 - Texas Instruments’da çalışan Jack Kilby ve Fairchild Semiconductor’da çalışan Robert Noyce’un birbirlerinden bağımsız olarak çalışmaları sonucunda “entegre devre” (Integrated Circuits – IC) ortaya çıktı.
 
 __Entegre Devre Teknolojisi__
