@@ -83,7 +83,7 @@ __Milisaniye =__ 1/100.000 saniye. Bir Hard disk sürücünün erişim zamanı 5
 __Nanosaniye =__ 1/1.000.000.000 saniye. Bir RAM’ın erişim zamanı 30 ile 70 nanosaniyedir.
 __Micron (micrometre) =__ 1 metrenin milyonda biri. Bir işlemci teknolojisini belirtmek için iki komponent arasındaki mesafeyi verir. Örnek: 1 mikron teknolojisi.
 
-![[Pasted image 20241024135139.png]]
+<img src="./Pasted image 20241024135139.png" alt="example" />
 
 ## Chipset
 - Anakart trafiğini yöneten birim
@@ -94,7 +94,7 @@ Anakart üzerinde bulunan, bellek ve AGP ve Güney Köprüsünü işlemciye bağ
 ##### Güney Köprüsü (South Bridge)
 North Bridge aracılığı ile işlemciye bağlanarak paralel, seri, usb, ps2 gibi düşük hızlı çıkış ve ara birimlerin işlemciye bağlanmasını sağlayan çip'in ismidir. 
 
-![[Pasted image 20241024135325.png]]
+<img src="./Pasted image 20241024135325.png" alt="example" />
 
 ## ANA kart
 #### Bus (Veri yolu)
@@ -136,7 +136,7 @@ Anakart üzerinde faklı donanımların birbirleriyle iletişimini sağlayan çi
 
 5. __Veri yolları(Buses):__ İşlemcinin diğer donanım birimleri ile bağlantısını sağlayan iletken elektriksel yollardır. Üç adet veri yolu bulunur. Bunlar veri(data), adres(address) ve kontrol(control) veri yollarıdır. 
 
-![[Pasted image 20241024135719.png]]
+<img src="./Pasted image 20241024135719.png" alt="example" />
 
 __1- Klasik İşlemciler:__ Komutlar zaman üzerinde sırayla işlenir. Bir komutun işlenmesi biter. Sonraki komut işlenmeye başlar.
 __2- Pipe-Line İşlemciler:__ Bir komutun işlenmesi süreci devam ederken sonraki komutun işlenmesi için hazırlık yapılır.
@@ -174,7 +174,7 @@ __4- Çok çekirdekli İşlemciler (Örn: Dual Core İşlemciler):__ İşlemci p
 
 5. __Silikon teknolojisi:__ Piyasada şu anda bulunan işlemcileri oluşturan bileşenler arasındaki mesafe bir metrenin 45 milyarda biri genişliğindedir(45nm teknolojisi). Transistörlerden 2000 tanesini yan yana koyduğunuzda bir insan saç telinin çapı (0.09 mm) kadar bir genişliğe ulaşılır. Silikon dioksit yerine hafniyum oksit kullanımıyla yeni transistörlerde daha az enerji kaybı, daha az ısınma ve daha hızlı geçişler sağlanır.
 
-![[Pasted image 20241024135950.png]]
+<img src="./Pasted image 20241024135950.png" alt="example" />
 ### RAM
 Bilgisayarda verilerin geçici olarak depolandığı hafıza birimidir. CPU'nun ihtiyaç duyduğu kodları sakladığı için hızlı ve kapasitesinin çok olması performansa doğrudan etki edecektir. Rastgele erişimli olması sayesinde belleğin sıra gözetmeksizin istenen adresindeki veriler okunup yazılabilir.
 - Disk, CDROM ve I/O portlarından gelen ve giden veriler geçici olarak RAM üzerinde işlenmek üzere tutulur. RAM'ler üzerindeki bilgiyi tutabilmeleri için elektrik enerjisine ihtiyaç duyarlar. Elektrik enerjisi kesildiğinde üzerilerindeki veriler de kaybolur. 
