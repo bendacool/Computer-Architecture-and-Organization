@@ -78,9 +78,13 @@ Bu bileşenler, diğer üst seviyelerdeki matematiksel ve Mantıksal işlemleri 
 <hr>
 
 __Hertz =__ Bir saniyedeki clock sayısı (frequency)
+
 __Byte =__ Hafıza kapasite birimidir.
+
 __Milisaniye =__ 1/100.000 saniye. Bir Hard disk sürücünün erişim zamanı 5 - 20 ms’dir.
+
 __Nanosaniye =__ 1/1.000.000.000 saniye. Bir RAM’ın erişim zamanı 30 ile 70 nanosaniyedir.
+
 __Micron (micrometre) =__ 1 metrenin milyonda biri. Bir işlemci teknolojisini belirtmek için iki komponent arasındaki mesafeyi verir. Örnek: 1 mikron teknolojisi.
 
 <img src="./Pasted image 20241024135139.png" alt="example" />
@@ -118,14 +122,18 @@ __USB(Universal Serial Bus):__ Evrensel seri veri yolu anlamındadır. PnP özel
 __PCI Express:__ En yeni bus yapısıdır. PCI Express, PCI veri yolunda kullanılan paralel veri iletimi mimarisinin yerine seri çalışan ve noktadan noktaya iletişim mimarisini kullanan bir teknoloji getiriyor. Çarpanları, sahip olduğu hat sayısını gösterir. Veriler paketler halinde iletilir. Bus yapısından ziyade ağ mantığı ile çalışır. Veri, seri olarak birkaç hattan gönderilip alınabilir. Bu hatların her birine kanal denmektedir ve çarpanla gösterilir. Veriler anahtarlama yöntemiyle istenen noktalara kanalize edilerek bant genişliğinden bağımsız iletim oluşturulur. Yani her bir kanal için adanmış bir yol anahtarlanarak sağlanır. Haberleşme şekli seridir. Kartlara sağladığı elektriksel güç AGP'den yaklaşık iki kat fazladır. Slot uzunluğu, çarpan sayısı ile doğru orantılıdır. PCI-Express veri yolunun çalışma mimarisi aynı donanım birimlerini ortak çalıştırmak için elverişlidir. 
 
 __Serial ATA(SATA)__, masaüstü bilgisayarlardaki, bazı sunuculardaki ve ağa bağlı depolama cihazlarındaki(HD) paralel ATA fiziksel depolama ara biriminin yenilenmiş versiyonudur. 
+
 ##### Portlar
 Bilgisayarın dış dünya(modem, klavye, yazıcı, kamera vb.) ile iletişimini sağlayan giriş çıkış kapılarına port denir. Aslında bunlar da birer veri yoludur. Seri, paralel, USB, PS/2... gibi çeşitleri vardır. 
+
 ##### BIOS (Basic Input Outpu System ) 
 Bilgisayar ilk açıldığında bu sistemin sahip olduğu program kodları ile başlatılır. Bu kodlar eeprom veya flash hafıza denilen yapılarda saklanır. Biosun ilk işi sistem elemanlarını(ekran kartı, sabit disk, Ram...) tanımlamak ve onları kontrol etmektir. Donanım birimleri denetlendikten ve başlangıç parametreleri yüklendikten sonra BIOS disk üzerindeki MBR (Master Boot Record) alanında işletim sistemi açılış dosyalarını arar. İşletim sistemini çağırarak kontrolü ona bırakır. 
+
 ##### Chipset
 Anakart üzerinde faklı donanımların birbirleriyle iletişimini sağlayan çip'lerdir. Northbridge(kuzey köprü) ve Southbridge(güney köprü) adında iki bileşenden oluşur. Northbridge hızlı bileşenleri(CPU, RAM, PCI Express ve AGP) birbirine bağlar. SouthBridge ise yavaş bileşenleri birbirine bağlar(IDE, USB, PCI...). 
 
 ### İşlemciler
+
 1. __ALU(Aritmetik ve Mantıksal İşlem Birimi):__ Toplama çıkarma, çarpma, bölme, mantıksal ve, veya, değil komutları ve kaydırma komutları.
 
 2. __Komut Çözücü(Instruction Decoder):__ İşlemcinin yapması gereken kodların icrası için gerekli işlemleri başlatır ve komutun çalıştırılması için gerekli işlemleri belirler.
@@ -175,8 +183,10 @@ __4- Çok çekirdekli İşlemciler (Örn: Dual Core İşlemciler):__ İşlemci p
 5. __Silikon teknolojisi:__ Piyasada şu anda bulunan işlemcileri oluşturan bileşenler arasındaki mesafe bir metrenin 45 milyarda biri genişliğindedir(45nm teknolojisi). Transistörlerden 2000 tanesini yan yana koyduğunuzda bir insan saç telinin çapı (0.09 mm) kadar bir genişliğe ulaşılır. Silikon dioksit yerine hafniyum oksit kullanımıyla yeni transistörlerde daha az enerji kaybı, daha az ısınma ve daha hızlı geçişler sağlanır.
 
 <img src="./Pasted image 20241024135950.png" alt="example" />
+
 ### RAM
-Bilgisayarda verilerin geçici olarak depolandığı hafıza birimidir. CPU'nun ihtiyaç duyduğu kodları sakladığı için hızlı ve kapasitesinin çok olması performansa doğrudan etki edecektir. Rastgele erişimli olması sayesinde belleğin sıra gözetmeksizin istenen adresindeki veriler okunup yazılabilir.
+
+- Bilgisayarda verilerin geçici olarak depolandığı hafıza birimidir. CPU'nun ihtiyaç duyduğu kodları sakladığı için hızlı ve kapasitesinin çok olması performansa doğrudan etki edecektir. Rastgele erişimli olması sayesinde belleğin sıra gözetmeksizin istenen adresindeki veriler okunup yazılabilir.
 - Disk, CDROM ve I/O portlarından gelen ve giden veriler geçici olarak RAM üzerinde işlenmek üzere tutulur. RAM'ler üzerindeki bilgiyi tutabilmeleri için elektrik enerjisine ihtiyaç duyarlar. Elektrik enerjisi kesildiğinde üzerilerindeki veriler de kaybolur. 
 - RAM, her bir hücresi bir transistör ve kapasitörden oluşan 2 boyutlu(satır ve sütunlar) matris yapıya sahiptir. Hücreler şarj edilirken hücre hücre değil, satır satır edilir. Verileri tazeleme oranı(refresh rate) satır bazında değerlendirilir. Örneğin 2K tazeleme oranına sahip bir bellekte 2048 adet satır tazeleniyor demektir. 
 - Günümüzde DDR SDRAM(double-data-rate synchronous dynamic random access memory), DDR2 SDRAM, DDR3 SDRAM ve SDRAM yapıda hafıza ürünleri kullanılmaktadır. 
