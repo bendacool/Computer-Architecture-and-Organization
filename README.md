@@ -240,7 +240,7 @@ __Rotational Time:__ istenen sektörü bulma zamanı
 __Transfer Time:__ Veri okuma veya yazma zamanı.
 
 Bir sabit diskin kapasitesi şu şekilde hesaplanır: 
- `Silindir sayısı*Sektör Sayısı*kafa sayısı*512
+ `Silindir sayısı*Sektör Sayısı*kafa sayısı*512`
 - 1024 silindir, 256 kafa ve 63 sektör parametrelerine sahip bir sabit diskin kapasitesi: `1024*256*63*512=845571864 byte`’dır. Bu da yaklaşık 8.4 Gigabyte’dır. 
 
 __Serial portlar__ ile, veriyi oluşturan bitleri 1,0 sinyal katarı art arda (her bir clock süresince tek bit) olarak iki nokta arasında tek bir iletişim ortamı ile gönderebilirsiniz. 
